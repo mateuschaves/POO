@@ -1,8 +1,9 @@
 package interfaces;
 
-import classes.Usuario;
+import classes.User;
 
 public interface UsuarioRepositorioInterface {
-    public Boolean cadastrar(Usuario usuario);
+    public Boolean cadastrar(User usuario);
+
     public Boolean logar(String login, String senha);
 }
